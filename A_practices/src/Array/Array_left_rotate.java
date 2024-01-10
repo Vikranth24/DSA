@@ -1,5 +1,5 @@
 package Array;
-
+//author vikranth
 public class Array_left_rotate {
 	 static void rotateArr(int arr[], int d, int n)
 	    {

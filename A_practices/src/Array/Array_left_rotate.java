@@ -1,5 +1,5 @@
 package Array;
-
+//author vikranth
 public class Array_left_rotate {
 	 static void rotateArr(int arr[], int d, int n)
 	    {
@@ -26,6 +26,7 @@ public class Array_left_rotate {
 		 for (int a:arr)
 		 {
 			 System.out.print(a+" ");
+			 System.out.println("bye");
 		 }
 }
 public static void main(String[] args)

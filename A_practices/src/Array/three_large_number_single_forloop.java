@@ -3,7 +3,7 @@ package Array;
 public class three_large_number_single_forloop {
 
 	public static void main(String[] args) {
-   int [] arr= {3,5,9,1,2};
+   int [] arr= {3,5,9,1,2,23,11,11,4,7,9};
    int first,second,third;
    first=Integer.MIN_VALUE;
    second=Integer.MIN_VALUE;

@@ -29,6 +29,7 @@ public class even_position_greater_than_odd {
 			arr[i]=temp;
 		}
 	}
+	
 	for(int a:arr)
 	{
 		System.out.print(a+" ");

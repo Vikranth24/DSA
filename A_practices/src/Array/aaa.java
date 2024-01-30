@@ -4,43 +4,45 @@ import java.util.Arrays;
 
 public class aaa {
 
-	 public static void main(String[] args)
-	    {
-		 
-		 int arr[]= {1,4,20,3,10,5};
-		 int sum=33;
-		 int n=arr.length;
+static void getCumulativeSum (int[] arr) {
 		
-		 for (int i=0;i<n;i++)
-		 {
-			 if(arr[i]==sum)
-			 {
-				 System.out.println(i +" is the index");
-			 }
-			 int total=arr[i];
-			 
-			 for (int j=i+1;j<n;j++)
-			 {
-				 total=total+arr[j];
-				 
-				 if (total ==sum)
-				 {
-					 System.out.println(i+" to "+j);
-				 }
-				 else if(total >sum)
-				 {
-					 break;
-				 }
-				 
-			 }
-			 
-		 }
-		 
+		int n=arr.length;
+		int temp=arr[0];
+		for (int i=1;i<n;i++)
+		{
+			temp=temp+arr[i];
+			arr[i]=temp;
+			
+			
+		}
+		
+		for (int a:arr)
+		{
+			System.out.print(a+" ");
+		}
+		System.out.println();
+		
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		int arr1[]={1,2,3,6};
+		int arr2[]={1,1,1,1,1};
+		int arr3[]={1,3,5,7,9};
+		 getCumulativeSum(arr1);
+		 getCumulativeSum(arr2);
+		 getCumulativeSum(arr3);
 		 
 		
+		
+
+		
+	
 		 
 		 
-}}
+}
+	}
 
 
 

@@ -1,5 +1,9 @@
 package String;
 
+/*
+  intput   String s="12345"
+  output      12345 (int)
+ */
 public class convert_String_to_integer {
 
 	public static void main(String[] args) {

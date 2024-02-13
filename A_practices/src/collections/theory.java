@@ -60,9 +60,8 @@ public class theory {
           
           
           
- 1) Interable interface 
+ 1) Iterable interface 
 * has 3 methods hasnext(), next, and remove(). 
-* need to create the object of iteartor
 * 
                Iterator itr=list.iterator();  
                while(itr.hasNext()){  
@@ -73,7 +72,7 @@ public class theory {
  
                          
  2) Collection interface
- * Has metods like add, addall etc...
+ * Has metods like add, addAll etc...
           
  
           
@@ -117,7 +116,7 @@ public class theory {
 *  
 *    ex if one element is there in linkedlist.  
 *           node 1 
-           reference   vikranth
+           vikranth  reference
            node2 
            reference  null
 
@@ -237,9 +236,76 @@ public class theory {
   
   
   
+                                            Map
+                                            
+1) Map
+*A map contains values on the basis of key, i.e. key and value pair.
+* Each key and value pair is known as an entry. A Map contains unique keys.
   
+  
+  Methods
+ put                      - use to add the key value pair
+ putAll                   -	It is used to insert the specified map in the map.
+ putIfAbsent              - adds the key value only if the key value is not exist.
+ remove  (key)            - used to remove specified key.
+ remove (key , value)     - used to remove key and value.
+ clear                    - used to empty the object
+ containsValue( value)    - shows true if the value exists.
+ containsKey( key)        - shows true if the key exists.
+ equals(Object o)         - compares one map with other.
+ get(Object key)          - used to get value present for the key.
+ isEmpty()                - return true if the map is empty.
+ replace(K key, V value)  - changes the value for the key given in replace method.
+ replace(K key, V oldValue, V newValue)-
+ size()                   - 
+ 
+ 
+ 
+ 
+ 2) Hashmap
+* Java HashMap contains values based on the key.
+* Java HashMap contains only unique keys.
+* Java HashMap may have one null key and multiple null values.
+* Java HashMap is non synchronized.
+* Java HashMap maintains no order.
+* The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
+ 
+  
+  
+  3) linkedhash map
+* Java LinkedHashMap contains values based on the key.
+* Java LinkedHashMap contains unique elements.
+* Java LinkedHashMap may have one null key and multiple null values.
+* Java LinkedHashMap is non synchronized.
+* Java LinkedHashMap maintains insertion order.
+* The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
   
  
+ 
+ 
+ 4)Treemap
+* java TreeMap contains values based on the key. It implements the NavigableMap interface and extends AbstractMap class.
+* Java TreeMap contains only unique elements.
+* Java TreeMap cannot have a null key but can have multiple null values.
+* Java TreeMap is non synchronized.
+* Java TreeMap maintains ascending order.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  */
+	
+	
+	public static void main(String[] args)
+	{
+		
+	}
 
 }

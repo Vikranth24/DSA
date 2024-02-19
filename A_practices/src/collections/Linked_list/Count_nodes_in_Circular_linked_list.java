@@ -4,8 +4,11 @@ public class Count_nodes_in_Circular_linked_list extends linked {
 
 	public static void main(String[] args) {
 		linked link =new linked();
+		link.addfirst(10);
+		link.addfirst(20);
+		link.addfirst(30);
 		
-		
+		link.addlast(100);
 		circular_linked_list();
 		circle_node_count();
 		

@@ -1,4 +1,4 @@
-package collections_Matrix;
+package matrix;
 
 public class Print_element_in_matrix {
 

@@ -1,4 +1,4 @@
-package collections_Matrix;
+package matrix;
 /*
  Given a matrix, clockwise rotate elements in it.
 

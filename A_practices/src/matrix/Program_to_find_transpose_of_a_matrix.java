@@ -1,4 +1,4 @@
-package collections_Matrix;
+package matrix;
 /*
  * 
  input 

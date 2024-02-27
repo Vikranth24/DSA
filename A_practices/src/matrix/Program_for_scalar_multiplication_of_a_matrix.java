@@ -1,4 +1,4 @@
-package collections_Matrix;
+package matrix;
 
 public class Program_for_scalar_multiplication_of_a_matrix {
 
